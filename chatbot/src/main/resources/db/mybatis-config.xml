@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+	PUBLIC "-//mybatis.org/DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>
+		<setting name="lazyLoadingEnabled" value="true" />
+		<setting name="defaultExecutorType" value="REUSE" />
+		<setting name="defaultStatementTimeout" value="600000" /><!-- 데이터베이스 응답 시간(ms) 프로시저에서 딜레이 경우발생하여 240 => 600000 변경 -->
+		<setting name="defaultFetchSize" value="1000000" />
+		<setting name="jdbcTypeForNull" value="NULL" /><!-- 쿼리에 보내는 파라메터가 null인 경우, 오류 발생하는 것 방지  예) #{search.user} -->
+		<setting name="mapUnderscoreToCamelCase" value="true" /><!-- //  Camel Case 자동처리 -->
+		<setting name="callSettersOnNulls" value="true"/><!-- //  쿼리 결과 필드가 null인 경우, 누락이 되서 나오는데 누락이 안되게 하는 설정 -->
+		<setting name="cacheEnabled" value="false" />
+		<setting name="useGeneratedKeys" value="true" />
+		<setting name="defaultExecutorType" value="REUSE" />
+		<setting name="jdbcTypeForNull" value="NULL" />		
+	</settings>
+ 
+  <mappers>
+    <mapper resource="/mybatis/map/hr.xml"/>
+  </mappers>
+
+</configuration>
