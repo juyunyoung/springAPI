@@ -1,4 +1,4 @@
-package com.gsenc.chatbot.controller;
+package com.sydh.chatbot.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -11,14 +11,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.gsenc.chatbot.service.ChatbotAPIService;
+import com.sydh.chatbot.service.ChatbotAPIService;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 
 @Controller
-public class ChatbotAPIControlledr {
+public class ChatbotAPIController {
 	@Autowired
 	private ChatbotAPIService chatbotAPIService;
 

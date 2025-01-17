@@ -1,4 +1,4 @@
-package com.gsenc.chatbot.map;
+package com.sydh.chatbot.map;
 
 import java.util.List;
 import java.util.Map;

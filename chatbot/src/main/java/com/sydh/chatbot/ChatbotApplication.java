@@ -1,4 +1,4 @@
-package com.gsenc.chatbot;
+package com.sydh.chatbot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,7 @@ import org.mybatis.spring.annotation.MapperScan;
 
 
 @SpringBootApplication
-@MapperScan("com.gsenc.chatbot.map")
+@MapperScan("com.sydh.chatbot.map")
 public class ChatbotApplication {
 
 	public static void main(String[] args) {

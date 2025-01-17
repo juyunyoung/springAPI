@@ -1,4 +1,4 @@
-package com.gsenc.chatbot;
+package com.sydh.chatbot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

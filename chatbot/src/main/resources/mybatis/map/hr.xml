@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
  
-<mapper namespace="com.gsenc.chatbot.map.HrMap">	
+<mapper namespace="com.sydh.chatbot.map.HrMap">	
 	<select id="list"  resultType="map" >
-		SELECT '1111','222','33333','44444' FROM DUAL 
+		<!-- oracle -->
+		<!--  SELECT '1111' as cal1,'222'  as cal2,'33333'  as cal3,'44444'  as cal4 FROM DUAL-->
+		<!-- postgresql -->
+		select NOW() as TEST 
 	</select>	
 </mapper>

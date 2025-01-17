@@ -1,4 +1,4 @@
-package com.gsenc.chatbot.service;
+package com.sydh.chatbot.service;
 
 import java.util.List;
 import java.util.Map;
@@ -8,7 +8,7 @@ import org.apache.ibatis.mapping.ResultMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.gsenc.chatbot.map.HrMap;
+import com.sydh.chatbot.map.HrMap;
 
 @Service
 public class ChatbotAPIService {
